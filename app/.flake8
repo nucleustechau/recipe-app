@@ -1,7 +1,8 @@
 
 [flake8]
 exclude = 
-  migrations,
-  __pycache__,
+  app/__pycache__,
   manage.py,
-  settings.py
+  app/settings.py,
+  app/wsgi.py,
+  app/urls.py
